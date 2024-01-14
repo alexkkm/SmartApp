@@ -10,7 +10,7 @@ const App = () => {
     <>
       {/* "App" is binding the "NavigationContainer" for performing navigation of the project */}
       <NavigationContainer>
-        <Stack.Navigator>
+        <Stack.Navigator initialRouteName='Home' screenOptions={{ headerTintColor: 'white', headerStyle: { backgroundColor: "orange" } }}>
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="RoutePage" component={RoutePage} />
         </Stack.Navigator>
