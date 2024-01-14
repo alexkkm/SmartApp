@@ -1,6 +1,6 @@
 import { View, Button } from "react-native";
 
-export default function HomeScreen({ navigation }) {
+const HomeScreen = ({ navigation }) => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Button
@@ -10,3 +10,4 @@ export default function HomeScreen({ navigation }) {
     </View>
   );
 }
+export default HomeScreen

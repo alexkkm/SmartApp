@@ -5,7 +5,7 @@ import RoutePage from './new';
 
 const Stack = createNativeStackNavigator();
 
-export default function App() {
+const App = () => {
   return (
     <>
       {/* "App" is binding the "NavigationContainer" for performing navigation of the project */}
@@ -18,3 +18,5 @@ export default function App() {
     </>
   );
 }
+
+export default App
