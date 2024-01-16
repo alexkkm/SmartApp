@@ -7,6 +7,10 @@ const HomeScreen = ({ navigation }) => {
         title="Go to RoutePage"
         onPress={() => navigation.navigate('RoutePage', { data: ["hi, ", "it is data"] })}
       />
+      <Button
+        title="Fetch"
+        onPress={() => navigation.navigate('FetchPage')}
+      />
 
     </View>
   );
